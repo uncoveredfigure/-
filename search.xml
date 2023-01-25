@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>butterfly 主题文件修改日志(非主题配置文件)</title>
+      <link href="/2023/01/25/record/"/>
+      <url>/2023/01/25/record/</url>
+      
+        <content type="html"><![CDATA[<h2 id="在-css-global-index-styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image-linear-gradient-174-2deg-rgba-255-244-228-1-7-1-rgba-240-246-238-1-67-4-”—47行">在/css/_global/index.styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );”—47行</h2><h2 id="试图在footer-pug中添加本站运行时间功能，目前相关代码已经注释">试图在footer.pug中添加本站运行时间功能，目前相关代码已经注释</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 个人探讨 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/01/24/hello-world/"/>
       <url>/2023/01/24/hello-world/</url>
