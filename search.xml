@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>个人博客美化旅途</title>
+      <link href="/2023/01/26/beautify/"/>
+      <url>/2023/01/26/beautify/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 魔改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>butterfly 主题文件修改日志(非主题配置文件)</title>
       <link href="/2023/01/25/record/"/>
       <url>/2023/01/25/record/</url>
       
-        <content type="html"><![CDATA[<h2 id="在-css-global-index-styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image-linear-gradient-174-2deg-rgba-255-244-228-1-7-1-rgba-240-246-238-1-67-4-”—47行">在/css/_global/index.styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );”—47行</h2><h2 id="试图在footer-pug中添加本站运行时间功能，目前相关代码已经注释">试图在footer.pug中添加本站运行时间功能，目前相关代码已经注释</h2><h2 id="在-css-layout-footer-styl文件中删除了页脚的蓝色背景（已注释），同时添加了页脚背景图以及位置（已注释）">在/css/_layout/footer.styl文件中删除了页脚的蓝色背景（已注释），同时添加了页脚背景图以及位置（已注释）</h2><h2 id="layout-includes-layout-pug-中有修改，已注释">/layout/includes/layout.pug 中有修改，已注释</h2><h2 id="themes-butterfly-layout-includes-rightside-pug中添加了新内容，已注释">\themes\butterfly\layout\includes\rightside.pug中添加了新内容，已注释</h2><h2 id="在-layout-includes-layout-pug中成功添加了视频背景，已注释，若要修改动态背景，目前只能在当前文件中修改-如果要启用，主题配置文件background不能为空">在/layout/includes/layout.pug中成功添加了视频背景，已注释，若要修改动态背景，目前只能在当前文件中修改 如果要启用，主题配置文件background不能为空</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="在-css-global-index-styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image-linear-gradient-174-2deg-rgba-255-244-228-1-7-1-rgba-240-246-238-1-67-4-”—47行">在/css/_global/index.styl文件中修改body属性成功更改了背景颜色，并在此处添加了注释“background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );”—47行</h2><h2 id="试图在footer-pug中添加本站运行时间功能，目前相关代码已经注释">试图在footer.pug中添加本站运行时间功能，目前相关代码已经注释</h2><h2 id="在-css-layout-footer-styl文件中删除了页脚的蓝色背景（已注释），同时添加了页脚背景图以及位置（已注释）">在/css/_layout/footer.styl文件中删除了页脚的蓝色背景（已注释），同时添加了页脚背景图以及位置（已注释）</h2><h2 id="layout-includes-layout-pug-中有修改，已注释">/layout/includes/layout.pug 中有修改，已注释</h2><h2 id="themes-butterfly-layout-includes-rightside-pug中添加了新内容，已注释">\themes\butterfly\layout\includes\rightside.pug中添加了新内容，已注释</h2><h2 id="在-layout-includes-layout-pug中成功添加了视频背景，已注释，若要修改动态背景，目前只能在当前文件中修改-如果要启用，主题配置文件background不能为空">在/layout/includes/layout.pug中成功添加了视频背景，已注释，若要修改动态背景，目前只能在当前文件中修改 如果要启用，主题配置文件background不能为空</h2><h2 id="字体样式在主题配置文件中">字体样式在主题配置文件中</h2>]]></content>
       
       
       <categories>

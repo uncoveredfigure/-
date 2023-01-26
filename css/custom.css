@@ -1,3 +1,13 @@
+/* 自定义字体样式 */
+@font-face{
+  font-family:'MyFont' ;  /* 字体名自定义即可 */
+  src:url('/fonts/SmileySans-Oblique-2.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+/* h1#site-title {
+  font-family: 'MyFont';
+} */
+
 /* 页脚与头图透明 */
 #footer {
     /* background: transparent !important; */
@@ -5,7 +15,8 @@
     background: rgba(0, 0, 0, 0.4);
   }
   #page-header {
-    background: transparent !important;
+    /* background: transparent !important; */
+    background: rgba(0, 0, 0, 0.2);
   }
   
   /* 白天模式遮罩透明 */
@@ -196,4 +207,29 @@
 /* 雪花黑夜模式不显示 */
 [data-theme="dark"] #snow{
   display: none;
+}
+
+/* 网页头图和背景图高斯模糊动画 */
+/*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+#page-header,
+#web_bg {
+    -webkit-animation: imgblur 2s 1 ease-in-out;
+    animation: imgblur 2s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+/*适配使用-webkit内核的浏览器 */
+@-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
 }
