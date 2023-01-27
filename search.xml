@@ -8,7 +8,7 @@
       <link href="/2023/01/26/beautify/"/>
       <url>/2023/01/26/beautify/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1>美化过程中可能遇到的问题</h1><ol><li>在修改主题配置文件后，实际页面的显示效果异常，和预期效果不同，大多数情况是没有清理缓存导致的，命令行执行<code>hexo clean</code>和<code>hexo server</code>后再看看有没有解决问题。<br>还有些情况是<strong>主题</strong>中的_config.yml和 _config.butterfly.yml里的配置不同名导致的，检查注释主题中_config.yml文件的对应设置后再查看是否显示正常。</li></ol>]]></content>
       
       
       <categories>
