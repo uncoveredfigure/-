@@ -1,13 +1,42 @@
+/* 首页卡片图片预览放大效果(自用) */
+.recent-post-content:hover .recent-post-cover .article-cover{
+  transform: scale(1.1);
+  transition: all ease-in-out .5s;
+}
+/* 动态背景在不同屏幕下的适配(自用) */
+@media screen and (min-width:1069px){
+  .vid_bg{
+    position: relative;
+    left: -30%;
+    top: 0%;
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (min-width:572px) and (max-width:1068px){
+  .vid_bg{
+    position: relative;
+    left: -80%;
+    top: 0%;
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (max-width:572px){
+  .vid_bg{
+    position: relative;
+    left: -250%;
+    top: 0%;
+    height: 100%;
+    width: auto;
+  }
+}
 /* 自定义字体样式 */
 @font-face{
   font-family:'MyFont' ;  /* 字体名自定义即可 */
   src:url('/fonts/SmileySans-Oblique-2.ttf'); /* 字体文件路径 */
   font-display : swap;
 }
-/* h1#site-title {
-  font-family: 'MyFont';
-} */
-
 /* 页脚与头图透明 */
 #footer {
     /* background: transparent !important; */
