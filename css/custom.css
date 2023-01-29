@@ -1,22 +1,36 @@
+/* 文章页顶部图透明度调整(自用) */
+.post-bg{
+  /* background: transparent !important; */
+  background: rgba(0, 0, 0, 0.2) !important;
+}
 /* 首页卡片图片预览放大效果(自用) */
 .recent-post-content:hover .recent-post-cover .article-cover{
   transform: scale(1.1);
   transition: all ease-in-out .5s;
 }
 /* 动态背景在不同屏幕下的适配(自用) */
-@media screen and (min-width:1069px){
+@media screen and (min-width:1708px){
   .vid_bg{
     position: relative;
-    left: -30%;
+    left: calc(100% - 2250px);
     top: 0%;
     height: 100%;
     width: auto;
   }
 }
-@media screen and (min-width:572px) and (max-width:1068px){
+@media screen and (min-width:1069px) and (max-width:1708px){
   .vid_bg{
     position: relative;
-    left: -80%;
+    left: calc(100%/2 - 1400px);
+    top: 0%;
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (min-width:573px) and (max-width:1068px){
+  .vid_bg{
+    position: relative;
+    left: calc(100%/2 - 1450px);
     top: 0%;
     height: 100%;
     width: auto;
@@ -25,7 +39,7 @@
 @media screen and (max-width:572px){
   .vid_bg{
     position: relative;
-    left: -250%;
+    left: calc(100%/2 - 1230px);
     top: 0%;
     height: 100%;
     width: auto;
@@ -262,3 +276,149 @@
     -webkit-filter: blur(0px);
   }
 }
+
+/* 波浪css开始 */
+/* 波浪css */
+.main-hero-waves-area {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  z-index: 5;
+}
+.waves-area .waves-svg {
+  width: 100%;
+  height: 5rem;
+}
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #f7f9febd;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #f7f9fe82;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #f7f9fe36;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #f7f9fe;
+}
+/* 黑色模式背景 */
+[data-theme="dark"] .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #18171dc8;
+  fill-opacity: 0;
+}
+[data-theme="dark"] .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #18171d80;
+  fill-opacity: 0;
+}
+[data-theme="dark"] .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #18171d3e;
+  fill-opacity: 0;
+}
+[data-theme="dark"] .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #18171d;
+  fill-opacity: 0;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves-area .waves-svg {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+/* 波浪CSS结束 */
+
+/* 页脚运行时间CSS 初 */
+div#runtime {
+  width: 180px;
+  margin: auto;
+  color: #fff;
+  padding-inline: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .7)
+}
+/* 字体大小 */
+#workboard {
+  font-size: 14px
+}
+
+[data-theme=dark] div#runtime {
+  color: #28b4c8;
+  box-shadow: 0 0 5px rgba(28, 69, 218, .71);
+  animation: flashlight 1s linear infinite alternate
+}
+
+#ghbdages .github-badge img {
+  height: 20px
+}
+
+@-moz-keyframes flashlight {
+  from {
+      box-shadow: 0 0 5px #1478d2
+  }
+
+  to {
+      box-shadow: 0 0 2px #1478d2
+  }
+}
+
+@-webkit-keyframes flashlight {
+  from {
+      box-shadow: 0 0 5px #1478d2
+  }
+
+  to {
+      box-shadow: 0 0 2px #1478d2
+  }
+}
+
+@-o-keyframes flashlight {
+  from {
+      box-shadow: 0 0 5px #1478d2
+  }
+
+  to {
+      box-shadow: 0 0 2px #1478d2
+  }
+}
+
+@keyframes flashlight {
+  from {
+      box-shadow: 0 0 5px #1478d2
+  }
+
+  to {
+      box-shadow: 0 0 2px #1478d2
+  }
+}
+/* 末 */
