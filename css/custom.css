@@ -9,7 +9,7 @@
   transition: all ease-in-out .5s;
 }
 /* 动态背景在不同屏幕下的适配(自用) */
-@media screen and (min-width:1708px){
+/* @media screen and (min-width:1708px){
   .vid_bg{
     position: relative;
     left: calc(100% - 2250px);
@@ -44,7 +44,7 @@
     height: 100%;
     width: auto;
   }
-}
+} */
 /* 自定义字体样式 */
 @font-face{
   font-family:'MyFont' ;  /* 字体名自定义即可 */
