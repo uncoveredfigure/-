@@ -55,11 +55,11 @@
 #footer {
     /* background: transparent !important; */
     /* 页脚的黑色不透明度 */
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4) !important;
   }
   #page-header {
     /* background: transparent !important; */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2) !important;
   }
   
   /* 白天模式遮罩透明 */
