@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>NSP &amp; XCI 游戏档案管理工具【Switch Army Knife(SAK)】介绍和使用</title>
+      <link href="/2023/02/06/sak/"/>
+      <url>/2023/02/06/sak/</url>
+      
+        <content type="html"><![CDATA[<p>PC用户若想要游玩Switch游戏，模拟器是必须的，其中比较实用的是<strong>YUZU模拟器</strong>，yuzu模拟器支持的文件格式为SCI和NSP，但是有些游戏原版文件格式为NSZ，故需要将NSZ文件转换成模拟器可运行的NSP格式，这就用到了转换工具SAK，接下来介绍的是下载实用教程</p><blockquote><p>SAK是github开源项目，下载最新的release版地址：<a href="https://github.com/dezem/SAK/">https://github.com/dezem/SAK/</a><br>下载解压后双击SAK.exe即可运行程序，但是此时还无法正常使用，在此之前，还需要获取biskey或prod.keys，这个密钥可以网上获取相应公共密钥，也可以从本地获取。以yuzu模拟器为例，找到对应根目录，复制粘贴[root]/user/keys/prod.keys到SAK的bin目录里去即可<br>SAK支持NSP转XCI，XCI转NSP，整合XCI，整合NSP，魔改XCI，魔改NSP<br><strong>注意</strong>:SAK的默认输出目录就在其根目录下</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SAK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>个人博客美化旅途</title>
       <link href="/2023/01/26/beautify/"/>
       <url>/2023/01/26/beautify/</url>
